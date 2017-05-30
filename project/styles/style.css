@@ -1,0 +1,139 @@
+html, body{
+    margin: 0;
+}
+@media(min-width:1024px){
+    .menu_it{
+        display: inline-block;
+    }
+    img{
+        display: inline-block;
+    }
+}
+@media(min-width:768px){
+    .menu_it{
+        display: inline-block;
+    }
+    img{
+        display: inline-block;
+    }
+}
+body{
+    font-size: 2rem;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h2{
+    color: #0d520d;
+}
+h3{
+    color: green;
+}
+.menu{
+    text-align: center;
+}
+.menu_it{
+    padding: 20px;
+}
+.pict_menu{
+    padding: 30px;
+    height: 100vh;
+    background: url("../foto/902150_900.jpg") 50%/cover;
+    position: relative;
+}
+.pict_menu h1 {
+    background: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+.pict_menu ul{
+    background: rgba(255,255,255,0.5);
+}
+.pict_br{
+    padding: 30px;
+    height: 100vh;
+    background: url("../foto/1457065625.jpg") 50%/cover;
+}
+.pict_br h1{
+    background: rgba(255,255,255,0.5);
+}
+.pict_br ul{
+    background: rgba(255,255,255,0.5);
+}
+.pict_ur{
+    background: url("../foto/0_81386_707b8e65_XL.jpg") 50%/cover;
+    padding: 30px;
+    height: 100vh;
+}
+.pict_ur h1{
+     background: rgba(255,255,255,0.5);
+}
+.pict_ur ul{
+     background: rgba(255,255,255,0.5);
+}
+.pict_si{
+    padding: 30px;
+    height: 100vh;
+    background: url("../foto/3436.jpg") 50%/cover;
+}
+.pict_si h1{
+     background: rgba(255,255,255,0.5);
+}
+.pict_si ul{
+     background: rgba(255,255,255,0.5);
+}
+.pict_dal{
+    background: url("../foto/f_3.jpg");
+    padding: 30px;
+    height: 100vh;
+}
+.pict_dal h1{
+    background: rgba(255,255,255,0.5);
+}
+.pict_dal ul{
+    background: rgba(255,255,255,0.5);
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+.vvedenie1{
+    background-color: rgba(155, 209, 255, 0.49);
+    font-family: 'Old Standard TT', serif;
+}
+img{
+    margin: 20px;
+}
+.s:hover{
+    transform: translate(20px,20px);
+}
+.s1:hover{
+    transform: translate(100px,0);
+}
+.s2:hover{
+    transform: rotate(30deg);
+}
+.s3:hover{
+    transform: translate(10px,10px) rotate(-20deg);
+}
+.s4:hover{
+    transform: translate(50px,100px);
+}
+.s5:hover{
+    transform: rotate(300deg);
+}
+.s6:hover{
+    transform: rotate(180deg);
+}
+.vvedenie2{
+    background-color: #b5d386;
+    font-family: 'Old Standard TT', serif;
+}
+.vvedenie3{
+    background-color: #a1dafd;
+    font-family: 'Old Standard TT', serif;
+}
+.vvedenie4{
+    background-color: rgba(204, 238, 253, 0.87);
+    font-family: 'Old Standard TT', serif;
+}
